@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins','Roboto',sans-serif;
+}
+ 
+input:focus-visible{
+    outline: 0;
+}
+
+.main{
+    background-color: rgba(177, 231, 91, 0.753);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    background: rgb(176, 233, 130);
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+#pass-box{
+    width:100%;
+    display: flex;
+    background-color: rgb(33, 185, 79);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.row{
+    width:100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: rgb(14, 53, 14);
+    font-size: 20px;
+}
+
+label{
+    user-select: none;
+}
+
+#btn{
+    width:100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: rgb(27, 211, 27);
+    color:rgb(6, 37, 6);
+    margin-top:10px;
+    border-radius: 5px;
+}
